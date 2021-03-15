@@ -3,6 +3,7 @@
 #include "TableLog.h"
 using namespace std;
 
+
 int main()
 {
 	TableLog table_log;
@@ -38,7 +39,6 @@ int main()
 	return 0;
 
 }
-
 
 #if 0
 DpSqlInterface g_db_obj;

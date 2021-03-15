@@ -32,9 +32,8 @@ public:
 		;//删除数据
 	bool TableLog::TableDelete(const string &table_name);//删除表
 public:
-	string table_info;
-	LogInfo log_info_instance;   // Log信息  
-	DpSqlInterface dp_sql_intanse; // DpSqlInterface实例
+	string table_info;//创建log表的详情
+	DpSqlInterface dp_sql_instance; // DpSqlInterface实例
 };
 
 #endif    
